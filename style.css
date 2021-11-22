@@ -1,0 +1,26 @@
+h1 {
+  font-size: 60px;
+}
+
+h1.banana {
+  font-size: 80px;
+}
+.two-cols {
+  background-color: pink;
+  display: flex;
+}
+.two-cols div {
+  margin-right: 20px;
+}
+.two-cols div:nth-child(odd) {
+  margin-right: 0;
+}
+a {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+.monkey-page .two-cols {
+  background-color: rgb(109, 85, 89);
+}
